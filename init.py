@@ -2,7 +2,7 @@ import discord
 from discord import utils
 import os
 import config
-TOKEN = os.environ.get('BOT_TOKEN')
+
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged on as {0}!'.format(self.user))
@@ -100,6 +100,6 @@ class MyClient(discord.Client):
             print(repr(e))
 
 # RUN
-bot.run(str(TOKEN))
+
 client = MyClient()
 client.run(config.TOKEN)
