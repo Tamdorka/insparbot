@@ -1,2 +1,2 @@
-worker: python config.py
+worker: python init.py
 
