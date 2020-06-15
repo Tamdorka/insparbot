@@ -4,7 +4,8 @@ import os
 
 POST_ID = 697449047824269382
 
-TOKEN='BOT_TOKEN'
+TOKEN=os.environ.get('BOT_TOKEN')
+bot.run(str(TOKEN))
 
 ROLES={
     '⛏️':697456121157255169,
