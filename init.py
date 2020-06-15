@@ -100,5 +100,6 @@ class MyClient(discord.Client):
             print(repr(e))
 
 # RUN
+bot.run(str(TOKEN))
 client = MyClient()
 client.run(config.TOKEN)
