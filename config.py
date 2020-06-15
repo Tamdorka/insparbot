@@ -1,4 +1,3 @@
-TOKEN = 'bot_token'
 
 POST_ID = 697449047824269382
 
