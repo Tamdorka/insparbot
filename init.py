@@ -4,8 +4,7 @@ import os
 
 POST_ID = 697449047824269382
 
-TOKEN='BOT_TOKEN'
-
+TOKEN='tok'
 
 ROLES={
     '⛏️':697456121157255169,
@@ -70,7 +69,7 @@ class MyClient(discord.Client):
             print(repr(e))
 
 # RUN
-client = MyClient()
+client=MyClient()
 client.run(TOKEN)
 
 
@@ -125,4 +124,3 @@ class MyClient(discord.Client):
 # RUN
 client = MyClient()
 client.run(TOKEN)
-
