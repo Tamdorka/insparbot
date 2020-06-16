@@ -4,7 +4,7 @@ import os
 
 POST_ID = 697449047824269382
 
-TOKEN=tok
+TOKEN='tok'
 
 ROLES={
     '⛏️':697456121157255169,
